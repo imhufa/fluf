@@ -3,7 +3,9 @@
         ALL HAIL LORD FLUFF! JACK-OF-ALL-FLUFFY, MASTER OF ALL!
     </h1>
 </div>
-
+<br>
+<br>
+...
 ![Markdownlint](https://github.com/imhufa/fluf/workflows/Markdownlint/badge.svg)
 
 ## lordfluffy is life:
@@ -25,7 +27,7 @@ git clone https://github.com/imhufa/fluf.git
 
 1. install .NET [elevated powershell]:
 > [!WARNING]
-> if you dont know how to run powershell. dude.dudette, just stop. go back to your videogame.
+> if you dont know how to run powershell. dude/dudette, just stop. go back to your videogame.
 
 ```console
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass -Force
