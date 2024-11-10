@@ -1,0 +1,137 @@
+# == :user:
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# == :user-aspx:
+*.userprefs
+
+# Build results
+# == :build:
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# == :vs:
+# :studio:
+.vs/
+
+# :code:
+.vscode/
+
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# :cache:
+*.[Cc]ache
+#!*.[Cc]ache/ " track
+
+# :static:
+wwwroot/
+
+# :profiler:
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# == :log:
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# :nunit:
+*.VisualState.xml
+TestResult.xml
+
+# .net core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+# == :web:
+# :workbench:
+.sass-cache/
+
+# :publish:
+*.[Pp]ublish.xml
+
+# :publish!clear:
+*.pubxml
+*.publishproj
+
+# == :installshield:
+[Ee]xpress/
+
+# == :directory:
+# :click-once:
+publish/
+
+# nuget
+*.nupkg
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+!**/packages/repositories.config
+*.nuget.props
+*.nuget.targets
+
+# ws
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+
+# == :workflow: !todo
+#bower_components/
+
+# == :automate: !todo
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# == :paket-dependency-manager: !todo
+.paket/paket.exe
+paket-files/
+
+# == :misc: !todo_might-use
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+
