@@ -32,6 +32,7 @@ Write-Host "ALL HAIL LORDFLUF!"
 ```
 
 2. compile and build
+
 ```console
 $holytemple = "$(echo "${pwd}")/fluf"
 
@@ -39,3 +40,23 @@ cd $holytemple
 dotnet publish
 dotnet run
 ```
+
+3. OR download and run compiled src
+
+```console
+$holytemple = "$(echo "${pwd}")/fluf"
+
+cd $holytemple
+Invoke-RestMethod -Uri "https://github.com/imhufa/fluf/raw/refs/heads/main/src/lordfluffy.zip" -OutFile lordfluffy.zip 2>&1 | Out-Null && Unblock-File lordfluffy.zip && Expand-Arcvhive lordfluffy.zip
+cd lordfluffy
+.\run
+```
+
+4. praise our fluffy lord fluf.
+[!CAUTION] OR ELSE.
+
+```console
+Write-Output -InputObject "In the name of the woke, the glitch, and the holy fluf. Amen"
+```
+
+### done.
