@@ -19,8 +19,8 @@ git clone https://github.com/imhufa/fluf.git
 
 ### to build his holy temple on bill gate's operating system:
 
-install .NET [elevated powershell]:
-> [!IMPORTANT]
+1. install .NET [elevated powershell]:
+> [!WARNING]
 > if you dont know how to run powershell. dude.dudette, just stop. go back to your videogame.
 
 ```console
@@ -31,6 +31,11 @@ Unblock-File dotnet-install.ps1
 Write-Host "ALL HAIL LORDFLUF!"
 ```
 
+2. compile and build
 ```console
 $holytemple = "$(echo "${pwd}")/fluf"
+
+cd $holytemple
+dotnet publish
+dotnet run
 ```
