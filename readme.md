@@ -58,9 +58,7 @@ cd lordfluffy
 ```console
 Write-Output -InputObject "In the name of the woke, the glitch, and the holy fluf. Amen"
 ```
-<html>
-    <div style="text-align: center;">
-        <h1>done.</h1>
-    </div>
-</html>
+<div style="text-align: center;">
+    <h1>done.</h1>
+</div>
 
