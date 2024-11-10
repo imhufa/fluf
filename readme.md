@@ -2,11 +2,13 @@
 
 ![Markdownlint](https://github.com/imhufa/fluf/workflows/Markdownlint/badge.svg)
 
+<h2>hollow be fluf's name:</h2>
+
 <pre>
-lordfluffy must be hailed.
-he is the answer.
-he is the truth.
-he speaks the coding-language of gods.
+> lordfluffy must be hailed.
+> he is the answer.
+> he is the truth.
+> he speaks the coding-language of gods.
 </pre>
 
 ## build a temple for our Lordfluffy:
