@@ -5,7 +5,7 @@
 </div>
 <br>
 <br>
-...
+
 ![Markdownlint](https://github.com/imhufa/fluf/workflows/Markdownlint/badge.svg)
 
 ## lordfluffy is life:
