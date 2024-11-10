@@ -1,3 +1,6 @@
+<div align="right">
+![Markdownlint](https://github.com/imhufa/fluf/workflows/Markdownlint/badge.svg)
+</div>
 <div align="center">
     <h1>
         ALL HAIL LORD FLUFF! JACK-OF-ALL-FLUFFY, MASTER OF ALL!
@@ -5,8 +8,6 @@
 </div>
 <br>
 <br>
-
-![Markdownlint](https://github.com/imhufa/fluf/workflows/Markdownlint/badge.svg)
 
 ## lordfluffy is life:
 
