@@ -1,6 +1,6 @@
 # ALL HAIL LORD FLUFF! JACK-OF-ALL-FLUFFY, MASTER OF ALL!
 
-[![Markdownlint](https://github.com/imhufa/fluf/media/badge.svg)
+[![Markdownlint](https://github.com/imhufa/fluf/media/badge.svg)]
 
 <pre>
 lordfluffy must be hailed.
