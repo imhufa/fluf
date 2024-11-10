@@ -9,15 +9,12 @@
 
 # Build results
 # == :build:
-[Dd]ebug/
-[Dd]ebugPublic/
 [Rr]elease/
 x64/
 x86/
 bld/
 [Bb]in/
 [Oo]bj/
-[Ll]og/
 
 # == :vs:
 # :studio:
@@ -67,6 +64,10 @@ wwwroot/
 # == :log:
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
+[Dd]ebug/
+**/[Dd]ebug/*
+[Dd]ebugPublic/
+[Ll]og/
 
 # :nunit:
 *.VisualState.xml
@@ -99,7 +100,6 @@ publish/
 # nuget
 *.nupkg
 **/packages/*
-# except build/, which is used as an MSBuild target.
 !**/packages/build/
 !**/packages/repositories.config
 *.nuget.props
