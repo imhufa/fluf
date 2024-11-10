@@ -1,0 +1,32 @@
+name: "target supported version"
+
+on:
+    schedule:
+        - cron: "0 0 1 * *"
+    workflow_dispatch:
+        inputs:
+            reason:
+                description: "The reason for running the workflow"
+                required: true
+                default: "Manual run"
+            support:
+                description: "The support level to target (STS, LTS, or Preview)."
+                required: true
+                default: "STS"
+
+jobs:
+    version-sweep:
+        runs-on: ubuntu-latest
+        permissions:
+            issues: write
+            pull-requests: write
+
+ as part of the job
+        steps:
+
+            - name: .NET version updater
+              id: dotnet-version-updater
+              uses: dotnet/docs-tools/actions/dotnet-version-updater@main
+              with:
+                  support: ${{ github.event.inputs.support }}
+                  token: ${{ secrets.GITHUB_TOKEN }}
