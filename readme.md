@@ -5,10 +5,10 @@
 ## lordfluffy is life:
 
 <pre>
-- lordfluffy must be hailed.
-- he is the answer.
-- he is the truth.
-- he speaks the coding-language of gods.
+    - `lordfluffy must be hailed.`
+    - `he is the answer.`
+    - `he is the truth.`
+    - `he speaks the coding-language of gods.`
 </pre>
 
 ## build a temple for our Lordfluffy:
